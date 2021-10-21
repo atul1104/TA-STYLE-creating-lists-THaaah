@@ -104,10 +104,11 @@ li a{
     padding-top: 7px;
 }
 .col-3-3 ul li{
-    list-style-image: url(../block-BHaaby/media/checklist-img.png);
+    /* list-style-image: url(../block-BHaaby/media/checklist-img.png); */
 }
 .col-3-3 ul{
     margin-left: 30px;
+    list-style:none;
 }
 .article dt{
     color: black;
@@ -118,6 +119,10 @@ li a{
 .article dl{
     color: #252c22;
     margin: 20px 0;
+}
+.fas {
+    margin-right: 10px;
+    color: black;
 }
 
 
