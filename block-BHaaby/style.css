@@ -1,0 +1,133 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+/* ol, ul {
+	list-style: none;
+} */
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Customozed CSS */
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+body{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #d4cea7;
+}
+.flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.navbar{
+    background-color: #f96115;
+    padding: 20px 0;
+}
+.navbar ul{
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 32px;
+}
+/* Column Section */
+.col{
+    width: 25%;
+    background-color: #005979;
+    color: #d4cea7;
+    padding: 20px 32px;
+    height: 400px;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.699);
+    margin-bottom: 32px;
+}
+.col-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+}
+.col-2-3 ol li{
+    margin-left: 24px;
+}
+.col li{
+    padding-top: 7px;
+}
+.col-3-3 ul li{
+    list-style-image: url(../block-BHaaby/media/checklist-img.png);
+}
+.col-3-3 ul{
+    margin-left: 30px;
+}
+.article dt{
+    color: black;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Roboto Mono', monospace;
+}
+.article dl{
+    color: #252c22;
+    margin: 20px 0;
+}
+
+
+/* Footer */
+.footer {
+    background-color: #252c22;
+    padding: 20px 0;
+}
+.footer ul{
+    list-style-type: none;
+}
+
+
